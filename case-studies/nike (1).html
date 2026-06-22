@@ -254,22 +254,6 @@ footer .wrap { display: flex; justify-content: space-between; font-size: 13px; c
 .case-nav-footer a { font-family: var(--font-mono); font-size: 13px; color: var(--ink-muted); }
 .case-nav-footer a:hover { color: var(--ink); }
 
-/* ============================================
-   DECK EMBED
-   ============================================ */
-.deck-section { padding: 0 0 72px; }
-.deck-section .section-head { margin-bottom: 20px; }
-.deck-frame-wrap { border: 1px solid var(--hairline); border-radius: var(--radius-card); overflow: hidden; background: var(--bg-tint); }
-.deck-frame-wrap iframe { width: 100%; height: 680px; border: none; display: block; }
-.deck-fallback {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 13px 18px; border-top: 1px solid var(--hairline); background: var(--white); font-size: 13.5px;
-}
-.deck-fallback a { font-family: var(--font-mono); color: var(--ink); font-weight: 500; }
-.deck-missing {
-  border: 1px dashed var(--hairline); border-radius: var(--radius-card);
-  padding: 44px 28px; text-align: center; color: var(--ink-muted); background: var(--bg-tint);
-}
 
 /* ============================================
    RESPONSIVE
@@ -362,19 +346,6 @@ footer .wrap { display: flex; justify-content: space-between; font-size: 13px; c
   </div>
 </div>
 
-<section class="wrap deck-section">
-  <div class="section-head">
-    <h2>Full deck</h2>
-    <p>The complete strategy presentation — every chart, framework, and appendix.</p>
-  </div>
-  <div class="deck-frame-wrap">
-    <iframe src="../decks/nike-customer-analytics.pdf" title="Nike — Customer Analytics & Personalization.pdf" loading="lazy"></iframe>
-    <div class="deck-fallback">
-      <span>Viewer not loading?</span>
-      <a href="../decks/nike-customer-analytics.pdf" target="_blank" rel="noopener">Open fullscreen / download PDF ↗</a>
-    </div>
-  </div>
-</section>
 
 <div class="case-nav-footer wrap">
   <a href="../index.html#work">← All projects</a>
